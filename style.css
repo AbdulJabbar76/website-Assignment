@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    width: 100%;
+}
+
+/**Header**/
+
+#bg_img {
+height: 500px;
+/* background-color: aqua; */
+background-image: url(imgs/cooking2.jpg);
+background-size: cover;
+filter: brightness(0.15);
+}
+
+.navbar {
+    height: 40px;
+    display: flex;
+position: absolute;
+top: 50px;
+
+flex-direction: row;
+justify-content: space-evenly;
+/* background-color: aqua; */
+
+}
+
+.nav_logo {
+    font-size: 24px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-para {
+    color: white;
+    margin-top: -7px;
+    font-size: 12px;
+    text-align: center;
+}
+
+a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+.yellowbutton {
+    background-color: rgb(248, 193, 10);
+    height: 30px;
+    width: 110px;
+    border-radius: 8px;
+    border: none;
+}
+
+.yellowbutton-b {
+    background-color: transparent;
+    height: 30px;
+    width: 110px;
+    border-radius: 8px;
+    border: 2px solid rgba(209, 123, 42, 0.87);
+    color: rgba(209, 123, 42, 0.87);
+}
+.twobuttons {
+margin-left: 80%;
+}
+
+
+#heading_text {
+    position: absolute;
+    top: 140px;
+    justify-items: center;
+    /* background-color: aqua; */
+   
+
+}
+.heading_text1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.heading_text2{
+    color: rgba(209, 123, 42, 0.87);
+    font-size: 40px;
+    font-weight: 700;
+}
+.heading_text3 {
+    width: 400px;
+    color: white;
+text-align: center;
+}
+
+.navbar2 {
+    height: 40px;
+    display: flex;
+position: absolute;
+top: 400px;
+flex-direction: row;
+margin-left: 33%;
+
+}
+
+.logo-2 {
+    height: 40px;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    margin-left: 18%;
+}
+
+.navbar2-logo {
+    color: white;
+   
+}
+
+.navbar2-logo-u {
+    font-size: 24px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar2-logo-l {
+    margin-top: -7px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/**Body**/
+
+.dish-img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 25%;
+    top: 100px;
+    background-image: url(imgs/dishes.jpg);
+    background-size: cover;
+    /* background-color: aqua; */
+}
+
+.dish-text {
+    width: 500px;
+    height: 280px;
+    position: relative;
+    left: 45%;
+    top: -150px;
+    background: transparent;
+    filter: opacity(.8) brightness(.15);
+    background-color: black;
+}
+
+.dish-text-a {
+    position: relative;
+    left: 47%;
+    top: -400px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+.dish-text-b {
+    position: relative;
+    left: 47%;
+    top: -400px;
+    color:  rgb(248, 193, 10);
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+.dish-text-c {
+    position: relative;
+    left: 47%;
+    top: -400px;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    width: 450px;
+    /* background-color: aqua; */
+    
+}
+.dish-text-button {
+    background-color: rgb(248, 193, 10);
+    height: 30px;
+    width: 110px;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    left: 47%;
+    top: -400px;
+}
+
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(248, 213, 243);
+}
+
+.middle-text1 {
+    position: relative;
+    bottom: 250px;
+    left: 22%;
+    width: 180px;
+}
+
+.middle-text1-para1 {
+    font-size: 12px;
+}
+.middle-text1-para2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.middle-text2 {
+    position: relative;
+    bottom: 310px;
+    left: 47%;
+    width: 350px;
+}
+.middle-text2-button {
+background-color: black;
+color: white;
+border: none;
+border-radius: 4px;
+width: 120px;
+height: 25px;
+}
+
+/** Three CARDS**/
+
+.threecards {
+position: relative;
+bottom: 240px;
+
+}
+.card1 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 20%;
+}
+.card1-para1 {
+color: white;
+font-weight: 600;
+margin-left: 10px;
+padding-top: 70px;
+}
+.card1-para2 {
+color: white;
+font-size: 14px;
+margin-left: 10px;
+}
+
+.card2 {
+   background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 42.5%;
+    bottom: 200px;
+}
+.card2-para1 {
+
+font-weight: 600;
+margin-left: 10px;
+padding-top: 70px;
+}
+.card2-para2 {
+
+font-size: 14px;
+margin-left: 10px;
+}
+
+.card3 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 65%;
+    bottom: 400px;
+}
+.card3-para1 {
+font-weight: 600;
+margin-left: 10px;
+padding-top: 70px;
+}
+.card3-para2 {
+font-size: 14px;
+margin-left: 10px;
+}
+
+/** Chef**/
